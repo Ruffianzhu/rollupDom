@@ -1,0 +1,1 @@
+var Staff=function(){"use strict";return function(){function t(){this.name="",this.age="",this.sex="",this.skill=""}return t.prototype.useSkill=function(){console.log("我的技能是：",this.skill)},t.prototype.setSkill=function(t){this.skill=t},t.prototype.setStaff=function(t){for(var i in t)this[i]=t[i]},t}()}();
